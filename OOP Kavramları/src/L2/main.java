@@ -1,4 +1,6 @@
-public class Main {
+package L2;
+
+public class main {
     public static void main(String[] args) {
         System.out.println("=== MODÜL 2: OOP (Kapsülleme) ===");
         KisiGelismis kisi = new KisiGelismis("Ahmet", 25, 1500);

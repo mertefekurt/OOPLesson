@@ -1,4 +1,5 @@
-public class Main {
+package L1;
+public class main {
     public static void main(String[] args) {
         System.out.println("=== MODÜL 3: Kontrol Yapıları ===");
         KontrolYapilari k = new KontrolYapilari();
@@ -21,7 +22,7 @@ class KontrolYapilari {
         else System.out.println("F");
     }
     void donguOrnegi() {
-        for (int i = 1; i <= 5; i++)
+        for (int i = 1; i <= 50; i++)
             System.out.println("Tekrar " + i);
     }
 }
